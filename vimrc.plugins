@@ -17,12 +17,12 @@ Plugin 'gmarik/Vundle.vim'
 
 " ex-config:
 " ---------------------------------------------------
-Plugin 'exvim/ex-config'
+" Plugin 'exvim/ex-config'
 nnoremap <unique> <leader>ve :call exconfig#edit_cur_vimentry ()<CR>
 
 " ex-utility:
 " ---------------------------------------------------
-Plugin 'exvim/ex-utility'
+" Plugin 'exvim/ex-utility'
 
 nnoremap <unique> <silent> <Leader>bd :EXbd<CR>
 nnoremap <unique> <silent> <C-l> :EXbn<CR>
@@ -34,15 +34,15 @@ nmap <unique> <silent> <Leader><Esc> :EXgp<CR><ESC>
 
 " ex-aftercolor
 " ---------------------------------------------------
-Plugin 'exvim/ex-aftercolors'
+" Plugin 'exvim/ex-aftercolors'
 
 " ex-vimentry
 " ---------------------------------------------------
-Plugin 'exvim/ex-vimentry'
+" Plugin 'exvim/ex-vimentry'
 
 " ex-project
 " ---------------------------------------------------
-Plugin 'exvim/ex-project'
+" Plugin 'exvim/ex-project'
 
 " add javascript language
 let tlist_javascript_settings = 'javascript;v:global variable:0:0;c:class;p:property;m:method;f:function;r:object'
@@ -53,11 +53,11 @@ let tlist_actionscript_settings = 'actionscript;c:class;f:method;p:property;v:va
 
 " ex-autocomplpop: invoke when you input text
 " ---------------------------------------------------
-Plugin 'exvim/ex-autocomplpop'
+" Plugin 'exvim/ex-autocomplpop'
 
 " ex-showmarks: invoke by m... or <leader>mm, <leader>ma
 " ---------------------------------------------------
-Plugin 'exvim/ex-showmarks'
+" Plugin 'exvim/ex-showmarks'
 
 " TODO: bootleq/ShowMarks on github is well organized in code, but have lots
 " bugs, consider merge his code and fixes the bugs
@@ -70,29 +70,29 @@ let g:showmarks_hlline_upper = 0
 
 " ex-visincr: invoke when select text and type ':II'
 " ---------------------------------------------------
-Plugin 'exvim/ex-visincr'
+" Plugin 'exvim/ex-visincr'
 
 " ex-matchit: invoke by %
 " ---------------------------------------------------
-Plugin 'exvim/ex-matchit'
+" Plugin 'exvim/ex-matchit'
 
 " ex-easyhl:
 " ---------------------------------------------------
-Plugin 'exvim/ex-easyhl'
+" Plugin 'exvim/ex-easyhl'
 
 " searchcompl: invoke by /
 " ---------------------------------------------------
-Plugin 'exvim/ex-searchcompl'
+" Plugin 'exvim/ex-searchcompl'
 
 " ex-colorschemes
 " ---------------------------------------------------
-Plugin 'exvim/ex-colorschemes'
+" Plugin 'exvim/ex-colorschemes'
 
 " vim-color-solarized
 " ---------------------------------------------------
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'altercation/vim-colors-solarized'
 
-Plugin 'kien/ctrlp.vim'
+" Plugin 'kien/ctrlp.vim'
 let g:ctrlp_working_path_mode = ''
 let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:10'
 let g:ctrlp_follow_symlinks = 2
@@ -192,7 +192,7 @@ let g:EasyMotion_startofline = 0 " keep cursor colum when JK motion
 
 " LargeFile
 " ---------------------------------------------------
-Plugin 'vim-scripts/LargeFile'
+" Plugin 'vim-scripts/LargeFile'
 let g:LargeFile= 5 " files >= 5MB will use LargeFile rules
 
 "}}}
@@ -201,7 +201,7 @@ let g:LargeFile= 5 " files >= 5MB will use LargeFile rules
 
 " ex-cref: invoke by <leader>cr
 " ---------------------------------------------------
-Plugin 'exvim/ex-cref'
+" Plugin 'exvim/ex-cref'
 
 " this is modified for default c syntax highlight settings
 " make it don't highlight error pattern
@@ -218,7 +218,7 @@ nnoremap <unique> <leader>w :StripWhitespace<CR>
 
 " ex-typescript
 " ---------------------------------------------------
-Plugin 'exvim/ex-typescript'
+" Plugin 'exvim/ex-typescript'
 
 " emmet-vim
 " ---------------------------------------------------
@@ -226,25 +226,25 @@ Plugin 'mattn/emmet-vim'
 
 " make sure emmet only enable in html,css files
 let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
+" autocmd FileType html,css EmmetInstall
 
 " vim-indent-guides: invoke by <leader>ig
 " ---------------------------------------------------
-Plugin 'nathanaelkane/vim-indent-guides'
+" Plugin 'nathanaelkane/vim-indent-guides'
 
 let g:indent_guides_guide_size = 1
 
 " vim-javascript
 " ---------------------------------------------------
-Plugin 'pangloss/vim-javascript'
+" Plugin 'pangloss/vim-javascript'
 
 " vim-coffee-script
 " ---------------------------------------------------
-Plugin 'kchmck/vim-coffee-script'
+" Plugin 'kchmck/vim-coffee-script'
 
 " vim-html
 " ---------------------------------------------------
-Plugin 'exvim/ex-indenthtml.vim'
+" Plugin 'exvim/ex-indenthtml.vim'
 
 
 " DISABLE: Slow to open big css file
