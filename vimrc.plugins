@@ -44,20 +44,6 @@ Plugin 'exvim/ex-vimentry'
 " ---------------------------------------------------
 Plugin 'exvim/ex-project'
 
-" ex-gsearch
-" ---------------------------------------------------
-Plugin 'exvim/ex-gsearch'
-
-;call exgsearch#register_hotkey( 100, 0, '<leader>ggs', ":EXGSearchToggle<CR>", 'Toggle global search window.' )
-;call exgsearch#register_hotkey( 101, 0, '<leader>ggg', ":EXGSearchCWord<CR>", 'Search current word.' )
-;call exgsearch#register_hotkey( 102, 0, '<leader><S-f>', ":GS ", 'Shortcut for :GS' )
-
-" ex-tagselect
-" ---------------------------------------------------
-Plugin 'exvim/ex-tags'
-
-call extags#register_hotkey( 100, 0, '<leader>ts', ":EXTagsToggle<CR>", 'Toggle tag select window.' )
-call extags#register_hotkey( 101, 0, '<leader>]', ":EXTagsCWord<CR>", 'Tag select current word.' )
 " add javascript language
 let tlist_javascript_settings = 'javascript;v:global variable:0:0;c:class;p:property;m:method;f:function;r:object'
 " add hlsl shader language
